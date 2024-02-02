@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledSectionTitleWrapper = styled.div`
-  margin-top: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
   padding-bottom: 5px;
   text-align: center;
   position: relative;

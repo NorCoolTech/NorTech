@@ -55,19 +55,20 @@ const Wrapper = styled.div`
   }
 
   .hero-description {
-    font-size: 1rem;
+    font-size: 1.05rem;
     text-transform: capitalize;
     color: var(--grey-300);
+    font-weight: 400;
   }
 
   .social-links {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .social-links a {
     font-size: 1.75rem;
-    color: var(--primary-500);
+    color: var(--primary-200);
     transition: var(--transition);
   }
 
@@ -89,19 +90,20 @@ const Wrapper = styled.div`
   .hero-download,
   .hero-email {
     width: 220px;
-    background-color: var(--grey-50);
     text-align: center;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow: var(--shadow-3);
   }
 
-  .hero-download span, .hero-email span {
-    font-size: 1.5rem;
-    font-weight: 600;
-    background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  .hero-download span,
+  .hero-email span {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #f49867;
+    /* background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
   }
 
   @media (min-width: 800px) {

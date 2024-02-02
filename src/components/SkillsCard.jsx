@@ -28,6 +28,7 @@ const StyledTitle = styled.h4`
 const StyledText = styled.p`
   margin-top: 0.5rem;
   color: var(--grey-900);
+  line-height: 1.75;
 `;
 
 const SkillsCard = ({ icon, title, text }) => {
