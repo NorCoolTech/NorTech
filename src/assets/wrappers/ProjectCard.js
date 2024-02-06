@@ -69,7 +69,7 @@ const Wrapper = styled.article`
   }
 
   .projects-card_link:hover {
-    color: #000;
+    color: var(--grey-900);
   }
 `;
 

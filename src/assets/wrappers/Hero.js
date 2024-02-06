@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   .hero-container {
-    height: 350px;
+    height: 450px;
     border-radius: 2rem;
     box-shadow: var(--shadow-1);
     background: rgba(255, 255, 255, 0.1);
@@ -69,7 +69,6 @@ const Wrapper = styled.div`
   .social-links a {
     font-size: 1.75rem;
     color: var(--primary-200);
-    transition: var(--transition);
   }
 
   .social-links a:hover {
@@ -93,17 +92,31 @@ const Wrapper = styled.div`
     text-align: center;
     border-radius: 20px;
     box-shadow: var(--shadow-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 
-  .hero-download span,
-  .hero-email span {
+  .hero-download svg, .hero-email svg {
+    color: var(--grey-200);
+    font-size: 1.35rem;
+  }
+
+  .hero-download a,
+  .hero-email a{
     font-size: 1.25rem;
     font-weight: 300;
-    color: #f49867;
-    /* background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    color: var(--grey-200);
+  }
+
+  .hero-download:hover a,
+  .hero-email:hover a,
+  .hero-download:hover svg,
+  .hero-email:hover svg {
+    color: var(--color-subtext);
+    transition: 0s;
+    cursor: pointer;
   }
 
   @media (min-width: 800px) {

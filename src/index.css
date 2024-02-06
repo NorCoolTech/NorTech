@@ -69,8 +69,8 @@ html {
     --view-width: 90vw;
     /* box shadow*/
     --shadow-1: inset 0px 0px 20px 3px #ae67fa;
-   
-   --shadow-2: 0 0 20px 2px #ae67fa inset;
+
+    --shadow-2: 0 0 20px 2px #ae67fa inset;
 
     --shadow-3: inset 0px 5px 5px 5px #ae67fa;
 
@@ -84,7 +84,10 @@ body {
     font-weight: 400;
     line-height: 1;
     color: var(--textColor);
+
 }
+
+
 
 .gradient_bg {
     background: -moz-radial-gradient(150deg, #070e21 0%, #152f78 50%, #8b5cf6 100%);
@@ -101,7 +104,7 @@ body {
     /* global 92%+ browsers support */
     /* background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(35, 42, 55, 1) 75%); */
     background: linear-gradient(150deg, #070e21 0%, #152f78 50%, #8b5cf6 100%);
-  
+
 }
 
 p {

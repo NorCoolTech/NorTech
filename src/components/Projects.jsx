@@ -22,8 +22,8 @@ const Projects = () => {
   };
 
   return (
-    <Wrapper>
-      <section className="projects-section" id="projects">
+    <Wrapper id="projects">
+      <section className="projects-section">
         <SectionTitle text="projects" />
         <Slider {...settings}>
           {projects.map((project) => (

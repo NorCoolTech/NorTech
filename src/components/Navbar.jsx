@@ -3,22 +3,21 @@ import { links, social } from "../data";
 import Wrapper from "../assets/wrappers/Navbar";
 import logo from "../assets/logo.svg";
 import { FaBars } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
+  const [showLinks, setShowLinks] = useState(false);
+  const linksRef = useRef(null);
 
-   const [showLinks, setShowLinks] = useState(false);
-   const linksRef = useRef(null);
+  const toggleLinks = () => {
+    setShowLinks(!showLinks);
+  };
 
-   const toggleLinks = () => {
-     setShowLinks(!showLinks);
-   };
-
-   const linkStyle = {
-     height: showLinks
-       ? `${linksRef.current.getBoundingClientRect().height}px`
-       : "0px",
-   };
-
+  const linkStyle = {
+    height: showLinks
+      ? `${linksRef.current.getBoundingClientRect().height}px`
+      : "0px",
+  };
 
   return (
     <Wrapper>
@@ -34,10 +33,18 @@ const Navbar = () => {
           <div className="links-container" style={linkStyle}>
             <ul className="links" ref={linksRef}>
               {links.map((link) => {
-                const { id, url, text } = link;
+                const { id, href, text } = link;
                 return (
                   <li key={id}>
-                    <a href={url}>{text}</a>
+                    <Link
+                      to={href}
+                      spy={true}
+                      smooth={true}
+                      offset={-10}
+                      duration={50}
+                    >
+                      {text}
+                    </Link>
                   </li>
                 );
               })}
@@ -48,7 +55,9 @@ const Navbar = () => {
               const { id, url, icon } = socialIcon;
               return (
                 <li key={id}>
-                  <a href={url} target="_blank">{icon}</a>
+                  <a href={url} target="_blank">
+                    {icon}
+                  </a>
                 </li>
               );
             })}

@@ -4,6 +4,7 @@ const Wrapper = styled.section`
   .projects-section {
     max-width: 1280px;
     margin: 2rem auto;
+
   }
 
   .slick-prev::before {
@@ -15,11 +16,9 @@ const Wrapper = styled.section`
     font-size: 2rem;
   }
 
-  .slick-dots li button {
-    color: red
-  }
+ 
 
-   .projects-grid {
+  .projects-grid {
     padding-top: 4rem;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));

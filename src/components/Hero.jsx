@@ -7,10 +7,14 @@ import CV from "../assets/CV/Norbert Kulacin.pdf";
 
 const Hero = () => {
   return (
-    <Wrapper>
-      <div className="hero-container" id="hero">
+    <Wrapper id="hero">
+      <div className="hero-container">
         <article className="hero-info">
-          <h1 className="hero-title">I'm Norbert</h1>
+          <h1 className="hero-title">
+            Welcome
+            <br />
+            I'm Norbert
+          </h1>
 
           <p className="hero-subtitle">
             Senior Project Manager | Future-Focused on Front-End Development
@@ -20,12 +24,16 @@ const Hero = () => {
             to Life Through Web Interactivity."
           </p>
           <div className="social-links">
-            <a href={CV} download className="hero-download">
-              <span>Download CV</span> <IoCloudDownloadSharp />
-            </a>
-            <a href={`mailto:norbert.kulacin@gmail.com`} className="hero-email">
-              <span>Email me</span> <MdEmail />
-            </a>
+            <div className="hero-download">
+              <a href={CV} download>
+                Download CV{" "}
+              </a>
+              <IoCloudDownloadSharp />
+            </div>
+            <div className="hero-email">
+              <a href={`mailto:norbert.kulacin@gmail.com`}>Email me</a>
+              <MdEmail />
+            </div>
             <a href="#">
               <FaGithubSquare />
             </a>

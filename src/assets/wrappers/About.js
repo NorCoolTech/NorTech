@@ -30,6 +30,7 @@ const Wrapper = styled.section`
     color: var(--grey-200);
     margin-top: 8px;
     line-height: 1.6;
+    font-size: 1.15rem;
   }
 `;
 

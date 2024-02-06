@@ -6,8 +6,8 @@ import Wrapper from "../assets/wrappers/Skills";
 
 const Skills = () => {
   return (
-    <Wrapper>
-      <section className="skills-center" id="skills">
+    <Wrapper id="skills">
+      <section className="skills-center">
         <SectionTitle text="Tech Stack" />
         <div className="skills-container">
           {skills.map((skill) => {
