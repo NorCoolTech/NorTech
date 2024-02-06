@@ -18,7 +18,7 @@ const Navbar = () => {
       ? `${linksRef.current.getBoundingClientRect().height}px`
       : "0px",
   };
-
+ 
   return (
     <Wrapper>
       <nav>

@@ -11,6 +11,7 @@ const StyledSkillsCard = styled.article`
   border-radius: 0.5rem;
   padding: 1.75rem;
   box-shadow: var(--shadow-2);
+  height: 100%;
 `;
 
 const StyledIcon = styled.span`

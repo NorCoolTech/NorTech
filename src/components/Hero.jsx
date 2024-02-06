@@ -4,7 +4,7 @@ import { IoCloudDownloadSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import Wrapper from "../assets/wrappers/Hero";
 import CV from "../assets/CV/Norbert Kulacin.pdf";
-
+ 
 const Hero = () => {
   return (
     <Wrapper id="hero">
@@ -23,10 +23,10 @@ const Hero = () => {
             "Let's Transform Creativity Into Code Together and Bring Imagination
             to Life Through Web Interactivity."
           </p>
-          <div className="social-links">
+          <div className="hero-contact">
             <div className="hero-download">
               <a href={CV} download>
-                Download CV{" "}
+                Download CV
               </a>
               <IoCloudDownloadSharp />
             </div>
@@ -34,12 +34,14 @@ const Hero = () => {
               <a href={`mailto:norbert.kulacin@gmail.com`}>Email me</a>
               <MdEmail />
             </div>
-            <a href="#">
-              <FaGithubSquare />
-            </a>
-            <a href="#">
-              <FaLinkedin />
-            </a>
+            <div className="hero-social-links">
+              <a href="#">
+                <FaGithubSquare />
+              </a>
+              <a href="#">
+                <FaLinkedin />
+              </a>
+            </div>
           </div>
         </article>
         <article>
