@@ -4,7 +4,6 @@ const Wrapper = styled.section`
   .projects-section {
     max-width: 1280px;
     margin: 2rem auto;
-
   }
 
   .slick-prev::before {
@@ -16,7 +15,11 @@ const Wrapper = styled.section`
     font-size: 2rem;
   }
 
- 
+  .slick-initialized .slick-slide {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+  }
 
   .projects-grid {
     padding-top: 4rem;

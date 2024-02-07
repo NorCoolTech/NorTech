@@ -10,8 +10,8 @@ import Slider from "react-slick";
 
 const Projects = () => {
   const settings = {
-    dots: true,
-    infinite: true,
+    dots: false,
+    infinite: false,
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
@@ -19,6 +19,7 @@ const Projects = () => {
     autoplaySpeed: 5000,
     cssEase: "linear",
     pauseOnHover: true,
+    
   };
 
   return (
