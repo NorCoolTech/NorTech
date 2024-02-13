@@ -1,6 +1,7 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact, FaGithub, FaLinkedin } from "react-icons/fa";
 
+
 export const links = [
   { id: nanoid(), href: "home", text: "home" },
   { id: nanoid(), href: "skills", text: "skills" },
@@ -45,7 +46,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "../public/images/todo-app.png",
+    img: "images/todo-app.png",
     url: "https://modern-todo-react-app.netlify.app/",
     github: "https://github.com/NorCoolTech/Todo",
     title: "react to do app",
@@ -61,7 +62,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../public/images/cocktail-finder.png",
+    img: "images/cocktail-finder.png",
     url: "https://cocktail-tracker.netlify.app/",
     github: "https://github.com/NorCoolTech/cocktail-finder",
     title: "Cocktail Finder",
@@ -77,7 +78,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../public/images/react-carousel.png",
+    img: "images/react-carousel.png",
     url: "https://react-carousel-unsplash-images.netlify.app/",
     github: "https://github.com/NorCoolTech/react-carousel",
     title: "react-carousel",
