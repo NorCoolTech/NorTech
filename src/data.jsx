@@ -45,7 +45,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "../src/assets/projects/todo-app.png",
+    img: "../public/projects/todo-app.png",
     url: "https://modern-todo-react-app.netlify.app/",
     github: "https://github.com/NorCoolTech/Todo",
     title: "react to do app",
@@ -61,7 +61,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/projects/cocktail-finder.png",
+    img: "../public/projects/cocktail-finder.png",
     url: "https://cocktail-tracker.netlify.app/",
     github: "https://github.com/NorCoolTech/cocktail-finder",
     title: "Cocktail Finder",
@@ -77,7 +77,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "../src/assets/projects/react-carousel.png",
+    img: "../public/projects/react-carousel.png",
     url: "https://react-carousel-unsplash-images.netlify.app/",
     github: "https://github.com/NorCoolTech/react-carousel",
     title: "react-carousel",
