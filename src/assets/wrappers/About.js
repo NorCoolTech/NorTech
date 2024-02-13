@@ -4,6 +4,7 @@ const Wrapper = styled.section`
   .about-center {
     margin: 2rem auto;
     max-width: 1280px;
+    padding: 0 15px;
   }
   .about-container {
     display: grid;
@@ -21,7 +22,7 @@ const Wrapper = styled.section`
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
     }
-    .about-img{
+    .about-img {
       align-self: end;
     }
   }

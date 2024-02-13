@@ -13,13 +13,13 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
           <p className="projects-card_text">{text}</p>
           <div className="projects-card_links">
             <div className="projects-card_box">
-              <p>run project</p>
+              <p>Run Project</p>
               <a href={url} target="_blank">
                 <VscVmRunning className="projects-card_link run" />
               </a>
             </div>
             <div className="projects-card_box">
-              <p>code on github</p>
+              <p>GitHub Code</p>
               <a href={github} target="_blank">
                 <FaGithubSquare className="projects-card_link" />
               </a>

@@ -4,11 +4,9 @@ import styled from "styled-components";
 import { BsBoxArrowInUp } from "react-icons/bs";
 
 const ScrollToTopButton = styled.button`
-  /* position: fixed; */
-  /* position: fixed; */
   position: relative;
   bottom: 150px;
-  right: 100px;
+  right: 10px;
   margin-left: 90%;
   background-color: transparent;
   color: #fff;
@@ -24,6 +22,9 @@ const ScrollToTopButton = styled.button`
   &:hover {
     background-color: var(--primary-900);
     color: var(--primary-400);
+  }
+  @media screen and (max-width: 768px) {
+    right: 100px;
   }
 `;
 

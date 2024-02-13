@@ -9,7 +9,6 @@ const Wrapper = styled.div`
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.35);
-    padding: 0.5rem;
   }
 
   .hero-info {
@@ -28,7 +27,6 @@ const Wrapper = styled.div`
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    align-self: flex-start;
   }
 
   .hero-subtitle {
@@ -138,6 +136,7 @@ const Wrapper = styled.div`
     }
     .hero-title {
       font-size: 5rem;
+      align-self: flex-start;
     }
     .hero-contact {
       flex-direction: row;

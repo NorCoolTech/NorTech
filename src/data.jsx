@@ -45,7 +45,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "../src/assets/projects/todo-app.png",
     url: "https://modern-todo-react-app.netlify.app/",
     github: "https://github.com/NorCoolTech/Todo",
     title: "react to do app",
@@ -61,7 +61,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "../src/assets/projects/cocktail-finder.png",
     url: "https://cocktail-tracker.netlify.app/",
     github: "https://github.com/NorCoolTech/cocktail-finder",
     title: "Cocktail Finder",
@@ -77,10 +77,10 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "../src/assets/projects/react-carousel.png",
     url: "https://react-carousel-unsplash-images.netlify.app/",
     github: "https://github.com/NorCoolTech/react-carousel",
     title: "react-carousel",
-    text: "Overview This project is a React-based carousel application that showcases two different implementations of image sliders. The first implementation utilizes custom JavaScript and CSS to create a simple and interactive carousel. The second implementation leverages the popular React Slick library for a more feature-rich and dynamic experience.",
+    text: "Overview this project is a React-based carousel application that showcases two different implementations of image sliders. The first implementation utilizes custom JavaScript and CSS to create a simple and interactive carousel. The second implementation leverages the popular React Slick library for a more feature-rich and dynamic experience.",
   },
 ];

@@ -17,7 +17,7 @@ const Hero = () => {
           </h1>
 
           <p className="hero-subtitle">
-            Senior Project Manager | Future-Focused on Front-End Development
+            IT Specialist | Future-Focused on Front-End Development
           </p>
           <p className="hero-description">
             "Let's Transform Creativity Into Code Together and Bring Imagination
