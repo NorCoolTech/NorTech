@@ -53,7 +53,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "",
     url: "https://react-images-api.netlify.app/",
     github: "https://github.com/NorCoolTech/Unsplash-Images",
     title: "Stock Images Gallery",
@@ -69,7 +69,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "",
     url: "https://restaurant-tilt-menu.netlify.app/",
     github: "https://github.com/NorCoolTech/restaurant-menu",
     title: "restaurant-menu",
