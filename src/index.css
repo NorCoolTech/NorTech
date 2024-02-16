@@ -59,7 +59,7 @@ html {
     --small-text: 0.875rem;
     --extra-small-text: 0.7em;
     /* rest of the vars */
-    /* --backgroundColor: var(--color-bg); */
+
     --textColor: var(--grey-900);
     --borderRadius: 0.25rem;
     --letterSpacing: 1px;
@@ -79,7 +79,6 @@ html {
 }
 
 body {
-    background: var(--backgroundColor);
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     line-height: 1;
@@ -103,7 +102,6 @@ body {
     /* global 92%+ browsers support */
     /* background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(35, 42, 55, 1) 75%); */
     background: linear-gradient(150deg, #070e21 0%, #152f78 50%, #8b5cf6 100%);
-
 }
 
 p {

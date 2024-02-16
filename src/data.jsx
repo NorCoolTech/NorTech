@@ -54,11 +54,11 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "",
+    img: "images/ImagePulse.png",
     url: "https://react-images-api.netlify.app/",
     github: "https://github.com/NorCoolTech/Unsplash-Images",
-    title: "Stock Images Gallery",
-    text: "The Stock Images Gallery is a dynamic React app showcasing high-quality Unsplash API images. Key Features: Dynamic Theme Toggle, Search Functionality, Flexible Gallery Filters, Random Image Mode. Technologies: React, Vite, React Query, FontAwesome, React Icons, Axios for smooth Unsplash API communication.",
+    title: "ImagePulse",
+    text: "ImagePulse is a dynamic React app showcasing high-quality Unsplash API images. Key Features: Dynamic Theme Toggle, Search Functionality, Flexible Gallery Filters, Random Image Mode. Technologies: React, Vite, React Query, FontAwesome, React Icons, Axios for smooth Unsplash API communication.",
   },
   {
     id: nanoid(),
@@ -70,7 +70,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: "",
+    img: "images/restaurant-menu.png",
     url: "https://restaurant-tilt-menu.netlify.app/",
     github: "https://github.com/NorCoolTech/restaurant-menu",
     title: "restaurant-menu",

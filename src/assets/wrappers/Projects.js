@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.section`
   .projects-section {
-    max-width: 700px;
+    width: 500px;
     margin: 2rem auto;
     padding: 0 15px;
   }
@@ -21,14 +21,10 @@ const Wrapper = styled.section`
     justify-content: center;
   }
 
-  .projects-grid {
-    padding-top: 4rem;
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-    gap: 2rem;
-
-    @media (min-width: 1024px) {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+ 
+  @media screen and (min-width: 800px) {
+    .projects-section {
+      width: 1280px;
     }
   }
 `;

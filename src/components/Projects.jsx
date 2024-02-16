@@ -12,13 +12,24 @@ const Projects = () => {
   const settings = {
     dots: false,
     infinite: false,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     speed: 1000,
     autoplaySpeed: 3000,
     cssEase: "linear",
     pauseOnHover: true,
+    responsive: [
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+    ],
   };
 
   return (

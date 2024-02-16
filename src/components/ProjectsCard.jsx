@@ -7,7 +7,10 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
   return (
     <Wrapper>
       <article className="projects-card">
-        <img src={img} alt={title} className="projects-card_image" />
+        <div className="projects-card_image">
+          <img src={img} alt={title} />
+        </div>
+
         <div className="projects-card_content">
           <h2 className="projects-card_title">{title}</h2>
           <p className="projects-card_text">{text}</p>
