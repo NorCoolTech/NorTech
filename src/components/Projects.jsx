@@ -11,17 +11,17 @@ import Slider from "react-slick";
 const Projects = () => {
   const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 1000,
-    autoplaySpeed: 3000,
+    speed: 2500,
+    autoplaySpeed: 6000,
     cssEase: "linear",
     pauseOnHover: true,
     responsive: [
       {
-        breakpoint: 800,
+        breakpoint: 1000,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
