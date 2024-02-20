@@ -23,14 +23,12 @@ const ScrollToTopButton = styled.button`
     background-color: var(--primary-900);
     color: var(--primary-400);
   }
-  /* @media (max-width: 800px) {
-    right: 5px;
-    font-size: 3rem;
-  } */
-  /* @media (max-width: 650px) {
-    color: transparent;
-  } */
-  
+  @media (max-width: 650px) {
+    right: 1%;
+    font-size: 2rem;
+  }
+
+
 `;
 
 const ScrollToTop = () => {

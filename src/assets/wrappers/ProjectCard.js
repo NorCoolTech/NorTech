@@ -94,11 +94,10 @@ const Wrapper = styled.article`
     width: 35%;
     border: 1px solid var(--grey-700);
     border-radius: 10px;
-    justify-self: center;
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
   }
 
   .projects-card_box p {
@@ -122,6 +121,20 @@ const Wrapper = styled.article`
       height: 1.35rem;
       width: 1.35rem;
     }
+  }
+  @media (max-width: 600px) {
+    .projects-card {
+      height: 400px;
+    }
+    .projects-card_content {
+      height: 65%;
+      font-size: 0.7rem;
+    }
+    .projects-card_link {
+      height: 1rem;
+      width: 1rem;
+    }
+    
   }
 `;
 

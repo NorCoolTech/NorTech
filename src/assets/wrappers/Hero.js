@@ -9,6 +9,7 @@ const Wrapper = styled.div`
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     border: 1px solid rgba(255, 255, 255, 0.35);
+    padding: 1rem;
   }
 
   .hero-info {
