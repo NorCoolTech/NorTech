@@ -2,15 +2,14 @@ import styled from "styled-components";
 
 const Wrapper = styled.section`
   .projects-section {
-    width: 500px;
+    max-width: 1280px;
+    width: 90%;
     margin: 2rem auto;
-    padding: 0 15px;
+    padding: 0 5px;
+    height: 100%;
   }
 
-  .slick-prev::before {
-    color: var(--primary-100);
-    font-size: 2rem;
-  }
+  .slick-prev::before,
   .slick-next::before {
     color: var(--primary-100);
     font-size: 2rem;
@@ -21,12 +20,25 @@ const Wrapper = styled.section`
     justify-content: center;
   }
 
- 
-  @media screen and (min-width: 800px) {
+  
+  @media screen and (max-width: 1000px) {
     .projects-section {
-      width: 1280px;
+      max-width: 900px;
     }
   }
+  
+  @media (max-width: 800px) {
+    .projects-section {
+      width: 60%;
+    }
+  }
+  @media (max-width: 799px) {
+    .projects-section {
+      width: 85%;
+      padding: 0 10px;
+    }
+  }
+
 `;
 
 export default Wrapper;
