@@ -32,7 +32,10 @@ const Hero = () => {
               <IoCloudDownloadSharp />
             </div>
             <div className="hero-email">
-              <a href={`mailto:norbert.kulacin@gmail.com`}>Email me</a>
+              <a href="mailto:norbert.kulacin@gmail.com?subject=Collaboration Opportunity&body=Hello Norbert,">
+                Email me
+              </a>
+
               <MdEmail />
             </div>
             <div className="hero-social-links">
