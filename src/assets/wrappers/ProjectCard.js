@@ -134,6 +134,12 @@ const Wrapper = styled.article`
       height: 1rem;
       width: 1rem;
     }
+    .projects-card_box {
+      width: 45%;
+    }
+    .projects-card_box p {
+      font-size: 0.8rem;
+    }
     
   }
 `;

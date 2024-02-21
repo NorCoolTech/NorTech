@@ -2,14 +2,16 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   .hero-container {
-    height: 450px;
+    height: 45%;
+    max-width: 1280px;
+    margin: 0 auto;
     border-radius: 2rem;
+    padding: 1rem 20px;
     box-shadow: var(--shadow-1);
     background: rgba(255, 255, 255, 0.1);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
-    border: 1px solid rgba(255, 255, 255, 0.35);
-    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.85);
   }
 
   .hero-info {
@@ -18,12 +20,13 @@ const Wrapper = styled.div`
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
+    gap: 1rem;
   }
 
   .hero-title {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
     background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -53,16 +56,16 @@ const Wrapper = styled.div`
   .hero-contact {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
   }
 
   .hero-social-links {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 0.5rem;
     font-size: 2rem;
     color: var(--primary-200);
+    
   }
 
   .hero-social-links svg {

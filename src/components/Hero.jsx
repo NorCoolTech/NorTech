@@ -4,7 +4,8 @@ import { IoCloudDownloadSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import Wrapper from "../assets/wrappers/Hero";
 import CV from "../assets/CV/Norbert Kulacin.pdf";
- 
+import { social2 } from "../data";
+
 const Hero = () => {
   return (
     <Wrapper id="hero">
@@ -35,12 +36,14 @@ const Hero = () => {
               <MdEmail />
             </div>
             <div className="hero-social-links">
-              <a href="#">
-                <FaGithubSquare />
-              </a>
-              <a href="#">
-                <FaLinkedin />
-              </a>
+              {social2.map((socialIcon) => {
+                const { id, url, icon } = socialIcon;
+                return (
+                  <a href={url} key={id} target="_blank">
+                    {icon}
+                  </a>
+                );
+              })}
             </div>
           </div>
         </article>

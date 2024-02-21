@@ -1,5 +1,12 @@
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaJs,
+  FaReact,
+  FaGithub,
+  FaLinkedin,
+  FaGithubSquare,
+} from "react-icons/fa";
 
 
 export const links = [
@@ -14,6 +21,19 @@ export const social = [
     id: nanoid(),
     url: "https://github.com/NorCoolTech",
     icon: <FaGithub />,
+  },
+  {
+    id: nanoid(),
+    url: "https://www.linkedin.com/in/norbertkulacin",
+    icon: <FaLinkedin />,
+  },
+];
+
+export const social2 = [
+  {
+    id: nanoid(),
+    url: "https://github.com/NorCoolTech",
+    icon: <FaGithubSquare />,
   },
   {
     id: nanoid(),

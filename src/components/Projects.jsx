@@ -28,6 +28,7 @@ const Projects = () => {
           slidesToScroll: 1,
           infinite: true,
           dots: true,
+          speed: 1500,
         },
       },
     ],
