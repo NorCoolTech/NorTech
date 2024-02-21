@@ -70,7 +70,7 @@ export const projects = [
     url: "https://modern-todo-react-app.netlify.app/",
     github: "https://github.com/NorCoolTech/Todo",
     title: "react to do app",
-    text: "This project is a simple React-based to-do application designed to help users manage their tasks efficiently. The entire application offers a user-friendly interface, real-time updates, and visual cues for task completion status. The use of React hooks and local storage ensures a seamless user experience.",
+    text: "This project is a simple React-based to-do application for efficient task management. It features a user-friendly interface, real-time updates, and visual task completion status cues. React hooks and local storage are used for a seamless user experience.",
   },
   {
     id: nanoid(),
@@ -102,6 +102,6 @@ export const projects = [
     url: "https://react-carousel-unsplash-images.netlify.app/",
     github: "https://github.com/NorCoolTech/react-carousel",
     title: "react-carousel",
-    text: "Overview this project is a React-based carousel application that showcases two different implementations of image sliders. The first implementation utilizes custom JavaScript and CSS to create a simple and interactive carousel. The second implementation leverages the popular React Slick library for a more feature-rich and dynamic experience.",
+    text: "React-based carousel app showcasing two image slider implementations. The first uses custom JavaScript and CSS for a simple, interactive carousel. The second uses React Slick for a more dynamic experience.",
   },
 ];
