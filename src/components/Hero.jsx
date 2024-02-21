@@ -32,7 +32,10 @@ const Hero = () => {
               <IoCloudDownloadSharp />
             </div>
             <div className="hero-email">
-              <a href="mailto:norbert.kulacin@gmail.com?subject=Collaboration Opportunity&body=Hello Norbert,">
+              <a
+                href="mailto:norbert.kulacin@gmail.com?subject=Collaboration Opportunity&body=Hello Norbert,"
+                target="_top"
+              >
                 Email me
               </a>
 
